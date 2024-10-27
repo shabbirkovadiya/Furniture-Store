@@ -168,6 +168,9 @@ body {
 .product-section {
   padding: 60px 0px 100px 0px;
 }
+.categories {
+  margin-bottom: 10px;
+}
 .filter label {
   margin-bottom: 8px;
   font-family: "inter-semibold";
@@ -332,7 +335,7 @@ line-height: 30px;
   padding-right: 10px;
   font-family: 'poppins-Regular';
   font-size: 17px;
-  min-width: 270px;
+  max-width: 300px;
 }
 .email input::placeholder {
   color: var(--black);
@@ -493,6 +496,9 @@ position: relative;
       align-self: flex-start;
       order: 0;
     }
+    .header img {
+      margin-top: 10px;
+    }
     .header ul {
       align-self:center;
       order: 2;
@@ -523,19 +529,19 @@ position: relative;
       gap: 15px;
       justify-content: center;
       align-items: center;
+      margin-bottom: 20px;
     }
     .footer-ul {
       margin: 0 !important;
       padding: 0 !important;
-      align-self: flex-start;
+      align-self: center;
     }
     .footer li {
-      display: block;
       padding: 0;
 
     }
     .footer li a {
-      margin: 0;
+      margin: 10px;
     }
     .footer .subfooter2{
       flex-direction: column;
@@ -557,6 +563,7 @@ position: relative;
     }
     .email input {
       padding-right: 45px;
+      width: 300px;
     }
 }
 
